@@ -1,0 +1,29 @@
+.transactionhistory__container {
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.transactionhistory__container th,
+.transactionhistory__container td {
+    padding: 10px 40px;
+    border: 1px solid black;
+}
+
+.transactionhistory__container td:first-child {
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.transactionhistory__header {
+    color: beige;
+    background-color: rgb(42, 53, 53);
+    font-size: 24px;
+}
+
+.transactionhistory__row {
+    color: black;
+}
+
+.transactionhistory__row_even {
+    background-color: rgb(92, 128, 128);
+}
